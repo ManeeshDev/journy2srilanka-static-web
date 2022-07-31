@@ -1,0 +1,66 @@
+
+/* form-popup CSS */
+
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed; /* sticky absolute fixed relative static */
+  bottom: 0;
+  right: 15px;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 1300px;
+  height: 100%;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  bottom: 23px;
+  right: 28px;
+  width: 300px;
+}
+
+/* Set a style for the cancel button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  right: 28px;
+  margin-bottom:2px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: #555;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+  background-color: #1da9ef;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+

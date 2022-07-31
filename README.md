@@ -1,5 +1,7 @@
-## Journy 2 Srilanka Static Web
+## 👨‍💻 Journy 2 Srilanka Static Web
 
 HTML-CSS-JS Static Website
 
-in 2019;
+`'Web Beginning😎'`
+
+#### 📌 in 2018;
